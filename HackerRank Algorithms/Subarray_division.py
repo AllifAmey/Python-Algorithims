@@ -1,6 +1,6 @@
-#started 11:45
+#started 11:45 2/2/23
 #link: https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
-#finished 12:00
+#finished 12:00 2/2/23
 
 #!/bin/python3
 
