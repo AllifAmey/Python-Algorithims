@@ -23,6 +23,16 @@ def countingValleys(steps, path):
     altitude = 0
     valleys = 0
     entered_valley = False
+    """
+    Explaining the code:
+    We need a way to determine how many times the hiker dropped below 0.
+    We do this by recording when the user entered the valley with entered_valley variable
+    Once the user is above 0, then we make sure the user entered valley is set to false.
+    
+    By doing this the transition from entered valley from false to true is only done once,
+    which is indicative of when they first enter the valley then we add that to valleys.
+    then return valleys to indicate how many times the user enters a valley.
+    """
     
     for step in path:
         print(altitude)
