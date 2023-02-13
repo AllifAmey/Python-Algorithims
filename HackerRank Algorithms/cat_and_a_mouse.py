@@ -16,6 +16,7 @@ def catAndMouse(x, y, z):
     As the speed is equal and the mouse position remains the same,
     if both cats starting position are the same then the time they reach the mouse,
     is the same thus returning Mouse C
+    Find the different between the 
     """
     if cats["Cat A"] == cats["Cat B"]:
         return "Mouse C"
