@@ -1,5 +1,5 @@
 # time: across two days and about 3 hours in total
-# link: 
+# link: https://leetcode.com/problems/sqrtx/description/
 class Solution(object):
 
     def mySqrt(self, x):
